@@ -1,6 +1,6 @@
 {
   "name": "fire-forget",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tiny, zero-dependency in-flight promise tracker with drain-on-shutdown and AbortSignal cancellation.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -46,7 +46,9 @@
     "url": "https://github.com/FarizPrawira/fire-forget/issues"
   },
   "homepage": "https://github.com/FarizPrawira/fire-forget#readme",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "devDependencies": {
     "@types/node": "^22.0.0",
     "@vitest/coverage-v8": "^4.1.6",
